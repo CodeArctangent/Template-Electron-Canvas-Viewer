@@ -1,7 +1,3 @@
-:root {
-    --title: 30px;
-}
-
 * {
     background: black;
     overflow: hidden;
@@ -52,7 +48,7 @@
 
 .canvas {
     position: fixed;
-    top: var(--title);
+    top: 0;
     left: 0;
     background: transparent;
 }
