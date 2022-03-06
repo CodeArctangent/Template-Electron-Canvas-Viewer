@@ -6,7 +6,6 @@ function createWindow() {
     const win = new BrowserWindow({
         width: config.simulation.width,
         height: config.simulation.height,
-        // frame: false,
         webPreferences: {
             preload: path.join(__dirname, 'webview/preload.js')
         }

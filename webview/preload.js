@@ -6,14 +6,6 @@ const util = require('arctan.autle');
 let body;
 let cv;
 
-function saveNetworkState(state) {
-
-}
-
-function loadNetworkState() {
-
-}
-
 window.addEventListener('DOMContentLoaded', () => {
     document.querySelector('title').innerText = config.window.title;
     body = document.querySelector('body');
